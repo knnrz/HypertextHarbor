@@ -21,4 +21,4 @@ Este é um projeto web completo, criado para apresentar de forma harmônica e ac
 1. **Clone ou baixe este repositório**  
    Você pode extrair o arquivo `.zip` ou clonar com:
    ```bash
-   git clone https://github.com/seu-usuario/seu-projeto.git
+   git clone https://github.com/knnrz/Sitio-web-blog-com-loja.git
