@@ -5,6 +5,15 @@
   box-sizing: border-box;
 }
 
+.menu {
+  display: flex;
+  justify-content: center; /* ou space-between */
+  gap: 20px; /* espaçamento entre os links */
+  padding: 10px;
+  background-color: #f5f5f5;
+}
+
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f5f7fa;
@@ -73,11 +82,49 @@ button:hover, .btn:hover {
   transform: scale(1.02);
 }
 
+.lateral {
+  width: 100%;
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+.container {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+  }
+}
+
+
+  main section {
+    width: 100%;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+
+  main {
+    flex: 3;
+  }
+
+  .lateral {
+    flex: 1;
+  }
+
 footer {
   text-align: center;
   padding: 20px;
   margin-top: 40px;
   border-top: 1px solid #ddd;
   font-size: 0.9em;
-  color: #777;
+  color: #050404;
 }
