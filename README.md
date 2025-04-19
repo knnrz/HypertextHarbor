@@ -1,91 +1,70 @@
-# Meu Site Pessoal com Blog, Loja e Portfólio
+# 🌐 Hypertext Harbor
 
-Este é um projeto web completo, criado para apresentar de forma harmônica e acessível uma marca pessoal ou pequeno negócio. O site inclui páginas estáticas e bem organizadas com foco em conteúdo, produtos, blog e portfólio.
+Bem-vindo ao **Hypertext Harbor** — um projeto de site moderno, organizado e feito com muito carinho. Ele inclui:
 
-## Funcionalidades
+- 🏠 Página inicial (Home)
+- 📝 Sessão de blog
+- 🛍️ Loja virtual
+- 💼 Portfólio
+- 👤 Página "Quem está por trás"
+- 🌈 Design harmônico com CSS3 responsivo
+- ⚙️ Estrutura preparada para expansão com posts manuais
 
-- **Home** – Apresentação geral do projeto com visual moderno e leve.
-- **Blog** – Sessão para publicação de artigos, tutoriais ou novidades.
-- **Loja** – Espaço para divulgar produtos ou serviços (vitrine simples).
-- **Quem está por trás** – Página com informações sobre o criador ou equipe.
-- **Portfólio** – Exibição de trabalhos anteriores ou projetos realizados.
+---
 
-## Tecnologias Utilizadas
+## 🚀 Acesse o site ao vivo
 
-- HTML5
-- CSS3 (customizado com foco em harmonia visual)
-- Estrutura pronta para integração com scripts JavaScript ou backend futuramente
+🔗 [https://knnrz.github.io/HypertextHarbor](https://knnrz.github.io/HypertextHarbor)
 
-## Como Usar
+---
 
-1. **Clone ou baixe este repositório**  
-   Você pode extrair o arquivo `.zip` ou clonar com:
-   ```bash
-   git clone https://github.com/knnrz/Sitio-web-blog-com-loja.git
-
-como este site ainda é estático (só com HTML/CSS), os posts do blog precisam ser adicionados manualmente. Aqui vai um passo a passo simples para você entender como fazer isso:
+## 📂 Estrutura do projeto
+HypertextHarbor/ 
+├── index.html # Página inicial 
+├── blog.html # Página do blog 
+├── loja.html # Página da loja 
+├── portfolio.html # Página do portfólio 
+├── sobre.html # Quem está por trás do projeto 
+├── post1.html # Exemplo de post individual 
+├── css/ 
+│ └── style.css # Estilos principais 
+├── js/ 
+│ └── script.js # Scripts JS (vazio por enquanto) 
+└── assets/ 
+└── imgs/ # Pasta de imagens
 
 
 ---
 
-✅ 1. Localize o arquivo blog.html
+## ✍️ Como adicionar novos posts
 
-Abra ele com um editor de código (como VS Code, Notepad++ ou até o Bloco de Notas).
-
-
----
-
-✅ 2. Copie e cole um bloco de postagem como este:
-
-<div class="card">
-  <h2>Título do Post</h2>
-  <p>Publicado em 11 de abril de 2025</p>
-  <p>Resumo do conteúdo do post... algo atrativo que desperte o interesse.</p>
-  <a href="#">Leia mais</a>
-</div>
-
+1. Crie um novo arquivo `postX.html` com base no modelo `post1.html`.
+2. Atualize o arquivo `blog.html` adicionando o link para o novo post.
+3. (Opcional) Adicione imagem e descrição se quiser em destaque.
 
 ---
 
-✅ 3. Cole esse bloco logo abaixo do anterior, como neste exemplo:
+## 💻 Rodando localmente
 
-<main class="container">
+```bash
+git clone https://github.com/knnrz/HypertextHarbor.git
+cd HypertextHarbor
+# Abra o index.html no navegador
 
-  <!-- Post 1 -->
-  <div class="card">
-    <h2>5 Lugares Incríveis em Florianópolis</h2>
-    <p>Publicado em 10 de abril de 2025</p>
-    <p>Descubra os melhores destinos para visitar na ilha da magia.</p>
-    <a href="#">Leia mais</a>
-  </div>
+📸 Prints ou demonstrações (opcional)
+Você pode colocar aqui screenshots do site, ou gifs mostrando a navegação.
 
-  <!-- Post 2 -->
-  <div class="card">
-    <h2>Como Criar Seu Próprio Site do Zero</h2>
-    <p>Publicado em 11 de abril de 2025</p>
-    <p>Passo a passo para montar um site pessoal com HTML e CSS.</p>
-    <a href="#">Leia mais</a>
-  </div>
+🧠 Tecnologias utilizadas
+    • HTML5
+    • CSS3 (com responsividade flex + grid)
+    • JavaScript (base incluída para futuras funções)
+    • Git e GitHub Pages
 
-</main>
+👤 Sobre o projeto
+Esse projeto foi criado para servir como base para uma presença digital completa, integrando loja, blog e portfólio pessoal de forma leve e sustentável. 💡🌱
 
+🛟 Contribuição e melhorias
+Fique à vontade para clonar, modificar ou sugerir melhorias.
 
----
-
-✅ 4. Para um conteúdo mais completo
-
-Você pode criar uma nova página para cada post, por exemplo:
-
-post1.html
-
-post2.html
-
-
-E alterar o link do botão Leia mais:
-
-<a href="post1.html">Leia mais</a>
-
-
----
-
+Feito com ❤️ por @knnrz
 
